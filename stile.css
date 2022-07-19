@@ -1,0 +1,92 @@
+/* HEAD */
+*{
+  color: white;
+}
+
+input{
+  color:black;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sfondo_grigio{
+  width: 1000px;
+  background-color: rgba(128, 128, 128, 0.5);
+  margin: auto;
+  padding-top: 50px;
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  border-radius: 10px;
+  margin-top: 47px;
+  margin-bottom: 90px;
+}
+
+#immagine{
+  width: 300px;
+  margin-left:30%;
+}
+
+h6{
+  color: green;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-left: 17%;
+  margin-bottom: 0px;
+}
+/* /HEAD */
+
+/* INPUT */
+
+.bottoni_input{
+  padding-left: 30%;
+  margin:auto;
+  padding-top:15px;
+  height: 40px;
+  width:auto;
+  background-color: green;
+  border: black solid 1px;
+  border-radius: 5px;
+}
+
+
+
+/* monopattini */
+.nome_monopattino{
+  font-size: 30px;
+  margin-left: auto;
+  width: 1000px;
+}
+
+.descrizione_monopattino{
+  font-size: 15px;
+}
+/* batterie */
+.batteria1{
+  background-color: lightgreen;
+  width: 700px;
+  height: 30px;
+  border-radius: 10px;
+  border: black solid 1px;
+}
+
+.batteria2{
+  background-color: orange;
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  border: black solid 1px;
+}
+
+.batteria3{
+background-color: red;
+width: 100px;
+height: 30px;
+border-radius: 10px;
+border: black solid 1px;
+}
